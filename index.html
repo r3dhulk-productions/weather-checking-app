@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5406EF7GC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-T5406EF7GC');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="./assest/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Simple Weather UI Showcasing Glassmorphism Design" />
+  <meta name="keywords"
+    content="glassmorphism,Glassmorphism,weather,glassmorphism design,Glass Weather,glass weather,weather ui" />
+  <meta name="author" content="Sumalya Chatterjee" />
+  <meta property="og:title" content="Glass Weather" />
+  <meta property="og:description" content="Simple Weather UI Showcasing Glassmorphism Design" />
+  <meta property="og:type" content="website" />
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather App🌡️📡</h1>
+    <br />
+    <div class="card">
+      <div class="content">
+        <div class="date"></div>
+        <h2></h2>
+        <h3></h3>
+        <h4></h4>
+        <span id="humidity"></span>
+        <span id="feels"></span>
+        <img alt="weather-icon" />
+        <input class="city" type="text" id="loc" placeholder="Enter City" autocomplete="off" />
+        <input class="save" type="button" value="Save" />
+      </div>
+    </div>
+    <footer>
+      <span class="copy">&copy;</span>
+      <a class="link" href="https://github.com/r3dhulk" target="_blank">R3DHULK</a>
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
